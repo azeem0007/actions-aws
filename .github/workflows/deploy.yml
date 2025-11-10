@@ -67,7 +67,7 @@ jobs:
       - name: Output contents
         run: ls
       - name: use open id connect 
-        uses: aws-actions/configure-aws-credentials@v2
+        uses: aws-actions/configure-aws-credentials@v5.1.0
         with:
           role-to-assume: arn:aws:iam::7485178244:role/github-actions-role
           aws-region: us-east-1
