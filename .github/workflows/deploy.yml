@@ -77,7 +77,7 @@ jobs:
         with:
           bucket: azeem-7485178244
           dist-folder: ./dist
-          # bucket-region: us-east-2
+          # bucket-region: us-east-2aa
       - name: Output information
         run: |
           echo "Live URL: ${{ steps.deploy.outputs.website-url }}"
