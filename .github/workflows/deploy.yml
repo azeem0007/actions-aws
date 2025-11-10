@@ -69,7 +69,7 @@ jobs:
       - name: use open id connect 
         uses: aws-actions/configure-aws-credentials@v5.1.0
         with:
-          role-to-assume: arn:aws:iam::7485178244:role/github-actions-role
+          role-to-assume: arn:aws:iam::618480995889:role/S3Acess
           aws-region: us-east-1
       - name: Deploy site
         id: deploy
